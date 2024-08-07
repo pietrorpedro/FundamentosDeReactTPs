@@ -1,0 +1,16 @@
+h1#title {
+    margin: 50px 0 10px 0;
+    text-align: center;
+}
+
+.projetos {
+    display: flex;
+    justify-content: center;
+}
+
+.projeto {
+    width: 400px;
+    border: 1px solid black;
+    text-align: center;
+}
+

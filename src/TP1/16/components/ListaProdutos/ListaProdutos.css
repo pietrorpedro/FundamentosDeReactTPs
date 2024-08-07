@@ -1,0 +1,18 @@
+.produtos h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.produtos .lista{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    .produtos .lista {
+        flex-direction: column;
+    }
+}
